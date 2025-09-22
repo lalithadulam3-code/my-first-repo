@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Fitness Zone</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .banner {
+            width: 100%;
+            height: 900px;
+            background: url("image copy 6.png") no-repeat center center/cover;
+        }
+        .container {
+            padding: 20px;
+        }
+        .programs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .program {
+            width: 300px;
+            padding: 15px;
+            border: 1px solid #cecccc;
+            border-radius: 10px;
+        }
+        .program img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        button {
+            padding: 3px;
+        }
+        .pointer{
+            cursor: pointer;
+        }
+        .workout,
+        .nutrition {
+           color: darkgreen;
+
+          
+        }
+        .foot-step {
+            background-color: black;
+            padding: 5px;
+        }
+      
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Zone</h1>
+         <nav>
+            <button class="pointer">Home</button>
+            <button class="pointer">Program</button>
+            <button class="pointer">Contact</button>
+        </nav>
+       
+    </header>
+    <div class="banner"></div>
+
+    <div class="container">
+        <h2>Our Fitness Programs</h2>
+        <div class="programs"> 
+
+            <div class="program">
+                <img src="image copy 3.png">
+                <h3>Strength Training</h3>
+                <p>Build muscle and strength with our expert-led training sessions.</p>
+            </div>
+
+
+            <div class="program">
+                <img src="image copy 4.png">
+                <h3>Cardio Workout</h3>
+                <p>Improve your endurance with high-intensity cardio exercises.</p>
+            </div>
+
+
+            <div class="program">
+                <img src="image copy 5.png">
+                <h3>Yoga Classes</h3>
+                <p>Enhance your flexibility and peace of mind with guided yoga sessions.</p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+    <main>
+        <section class="workout">
+            <h2>Today's Workout</h2>
+            <ul>
+                <li>Push-ups: 20 reps</li>
+                <li>Squats: 30 reps</li>
+                <li>Burpees: 15 reps</li>
+            </ul>
+        </section>
+        <section class="nutrition">
+            <h2>Nutrition Plan</h2>
+            <ul>
+                <li>Breakfast: Oatmeal with fruits</li>
+                <li>Lunch: Grilled chicken salad</li>
+                <li>Dinner: Steamed vegetables and fish</li>
+            </ul>
+        </section>
+           
+        </main>
+        <footer>
+            <button>&copy; 2025 Fitness App.</button>
+        </footer>
+</body>
+    </html>
